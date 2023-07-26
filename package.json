@@ -5,7 +5,8 @@
   "scripts": {
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dev": "sst bind next dev"
   },
   "dependencies": {
     "@types/node": "20.4.5",
@@ -20,5 +21,10 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "sst": "^2.22.6",
+    "aws-cdk-lib": "2.84.0",
+    "constructs": "10.1.156"
   }
 }
