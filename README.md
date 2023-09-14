@@ -25,6 +25,7 @@ openNext+SSTを使用したデプロイ方法になります。
 
 ### 事前準備
 AWSからクレデンシャルを払い出しておくこと。
+または`AWS_ACCESS_KEY_ID`と`AWS_SECRET_ACCESS_KEY`を環境変数で渡してあげる
 
 ### デプロイ
 ```bash
